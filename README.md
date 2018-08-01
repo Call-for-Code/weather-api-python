@@ -13,19 +13,25 @@ All others, sign up for [IBM Cloud here](https://console.bluemix.net/), and prov
 Deploy this application to IBM Cloud.
 
 1. Install and configure the [IBM Cloud Developer Tools](https://console.bluemix.net/docs/cli/index.html#overview)
+
 2. Clone this repository
+
    ```
-   $ git clone https://github.com/Call-for-Code/weather-api-nodejs.git
-   $ cd weather-api-nodejs
+   $ git clone https://github.com/Call-for-Code/weather-api-python.git
+   $ cd weather-api-python
    ```  
+
 3. Deploy the application without starting it
+
    ```
    $ ibmcloud cf push --no-start
    ```
+
 4. Configure your Weather API key `<YOUR_API_KEY>` and start the application
+
    ```
-   $ ibmcloud cf set-env weather-api-nodejs WEATHER_API_KEY <YOUR_API_KEY>
-   $ ibmcloud cf start weather-api-nodejs
+   $ ibmcloud cf set-env weather-api-python WEATHER_API_KEY <YOUR_API_KEY>
+   $ ibmcloud cf start weather-api-python
    ```
 
 ## Getting Started on your local machine
@@ -33,17 +39,22 @@ Deploy this application to IBM Cloud.
 To run this application on your local machine, first install Node.js.
 
 1. Clone this repository
+
    ```
-   $ git clone https://github.com/Call-for-Code/weather-api-nodejs.git
-   $ cd weather-api-nodejs
+   $ git clone https://github.com/Call-for-Code/weather-api-python.git
+   $ cd weather-api-python
    ```  
+
 2. Install the dependencies
+
    ```
-   $ npm install
+   $ pip install -r requirements.txt
    ```
+
 3. Set your Weather API key `<YOUR_API_KEY>` when running the application    
    ```
-   $ WEATHER_API_KEY=<YOUR_API_KEY> node app.js
+   $ export WEATHER_API_KEY=<YOUR_API_KEY>
+   $ python app.py
    ```
 
 ## License
