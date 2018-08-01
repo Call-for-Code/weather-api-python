@@ -1,0 +1,12 @@
+---
+applications:
+- name: weather-api-python
+  no-route: true
+  health-check-type: process
+  command: python app.py
+  path: .
+  memory: 256M
+  instances: 1
+  env:
+    WEATHER_API_KEY: <YOUR_API_KEY>
+    NPM_CONFIG_PRODUCTION: false
