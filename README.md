@@ -4,15 +4,15 @@ This project shows how to build a basic data access application that continuousl
 
 ## Obtain a Weather Company API Key
 
-If you're participating in the 2018 Call for Code initiative, go the the [special Call for Code Weather web site](https://callforcode.weather.com/) and [register](https://callforcode.weather.com/register). A time-limited API key will be sent to you via email.
+If you're participating in the [Call for Code](https://developer.ibm.com/callforcode/) Global Challenge, go the the [special Call for Code Weather web site](https://callforcode.weather.com/) and [register](https://callforcode.weather.com/register). A time-limited API key will be sent to you via email. The documentation for the Weather Company APIs for Call for Code can be found the [here](https://callforcode.weather.com/documentation/).
 
-All others, sign up for [IBM Cloud here](https://console.bluemix.net/), and provision the free [Weather Company Data plan here](https://console.bluemix.net/catalog/services/weather-company-data). Instead of the Call for Code documentation, [use this documentation instead](https://console.bluemix.net/docs/services/Weather/weather_rest_apis.html#rest_apis), which references slightly different versions of the APIs.
+All others, sign up for [IBM Cloud here](https://cloud.ibm.com/login) and provision the [Weather Company Data service](https://cloud.ibm.com/catalog/services/weather-company-data). The Weather Company Data service uses slightly different [API versions](https://twcservice.mybluemix.net/rest-api/). You can reference its documentation [here](https://cloud.ibm.com/docs/services/Weather?topic=weather-insights_weather_overview).
 
 ## Getting Started in IBM Cloud
 
 Deploy this application to IBM Cloud.
 
-1. Install and configure the [IBM Cloud Developer Tools](https://console.bluemix.net/docs/cli/index.html#overview)
+1. Install and configure the [IBM Cloud Developer Tools](https://cloud.ibm.com/docs/cli?topic=cloud-cli-ibmcloud-cli#overview)
 
 2. Clone this repository
 
@@ -59,4 +59,4 @@ To run this application on your local machine, first install Node.js.
 
 ## License
 
-This code is licensed under Apache 2.0. Full license text is available in [LICENSE](https://github.com/Call-for-Code/weather-api-nodejs/tree/master/LICENSE).
+This code is licensed under Apache 2.0. Full license text is available in [LICENSE](https://github.com/Call-for-Code/weather-api-python/tree/master/LICENSE).
