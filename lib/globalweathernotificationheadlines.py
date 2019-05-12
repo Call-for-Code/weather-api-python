@@ -1,3 +1,5 @@
+# This Python file uses the following encoding: utf-8
+
 """
 from: https:#callforcode.weather.com/doc/v3-global-weather-notification-headlines/
  
