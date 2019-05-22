@@ -1,6 +1,6 @@
-# Weather Alert - Details
+# Weather Alerts Detail
 #
-# - https://weather.com/swagger-docs/ui/sun/v1/sunV1AlertsWeatherAlertDetails.json
+# - https://weather.com/swagger-docs/ui/sun/v3/sunV3AlertsWeatherAlertDetail.json
 #
 # The Weather Alert Details API provides weather watches, warnings, statements and
 # advisories issued by the NWS (National Weather Service), Environment Canada and
@@ -17,17 +17,19 @@
 # Weather Alert Headlines API and use the value found in the attribute to request the
 # detailed information found in the Weather Alert Details API.
 #
-# Base URL: api.weather.com/v1
-# Endpoint: /alert/{detailKey}/details.json
+# Base URL: api.weather.com/v3
+# Endpoint: /alerts/detail
 
 __name__ = 'weatheralertdetails'
 
 from lib.apiutil import host, default_params
 
 def request_options (detail_key):
-  url = host + '/v1/alert/{key}/details.json'.format(key=detail_key)
+  url = host + '/v3/alerts/detail'
 
   params = default_params()
+  params['alertId'] = detail_key
+  params['format'] = 'json'
 
   return url, params
 
@@ -35,11 +37,11 @@ def handle_response (res):
   if res and res['alertDetail']:
     alert = res['alertDetail']
     # Main thing here that is not in the alert headline is the alert['texts'] array
-    print('weather-alerts-detail: {}'.format(alert['headline_text']))
+    print('weather-alerts-detail: {}'.format(alert['headlineText']))
 
     if alert['texts']:
       for text in alert['texts']:
-        print(text['language_cd'])
+        print(text['languageCode'])
         print(text['instruction'])
         print(text['overview'])
         print(text['description'])

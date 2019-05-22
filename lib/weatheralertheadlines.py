@@ -1,6 +1,6 @@
-# Weather Alerts - Headlines
+# Weather Alerts Headlines
 #
-# - https://weather.com/swagger-docs/ui/sun/v1/sunV1AlertsWeatherAlertHeadlines.json
+# - https://weather.com/swagger-docs/ui/sun/v3/sunV3AlertsWeatherAlertsHeadlines.json
 #
 # The Weather Alert Headlines API provides weather watches, warnings, statements and
 # advisories issued by the NWS (National Weather Service), Environment Canada and
@@ -16,17 +16,19 @@
 # The Alert Headlines API also provides a key value found in the attribute to access
 # the alert details in the Alert Details API.
 #
-# Base URL: api.weather.com/v1
-# Endpoint: /geocode/{latitude}/{longitude}/alerts.json
+# Base URL: api.weather.com/v3
+# Endpoint: /alerts/headlines
 
 __name__ = 'weatheralertheadlines'
 
 from lib.apiutil import host, default_params
 
 def request_options (lat, lon):
-  url = host + '/v1/geocode/{lat}/{lon}/alerts.json'.format(lat=lat, lon=lon)
+  url = host + '/v3/alerts/headlines'
 
   params = default_params()
+  params['geocode'] = '{lat},{lon}'.format(lat=lat, lon=lon)
+  params['format'] = 'json'
 
   return url, params
 
@@ -39,8 +41,8 @@ def handle_response (res):
       # check fields to decide if this alert is important to you.
       print(alert)
 
-      if alert['severity_cd'] <= 3 and alert['certainty_cd'] <= 3 and alert['urgency_cd'] <= 3:
-        details.append(alert['detail_key'])
+      if alert['severityCode'] <= 3 and alert['certaintyCode'] <= 3 and alert['urgencyCode'] <= 3:
+        details.append(alert['detailKey'])
 
     print('weather-alert-headlines: returning {} alert(s) meeting threshold out of {} total'.format(len(details), len(res['alerts'])))
   else:
