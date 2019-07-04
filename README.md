@@ -12,7 +12,7 @@ All others, sign up for [IBM Cloud here](https://cloud.ibm.com/login) and provis
 
 Deploy this application to IBM Cloud.
 
-1. Install and configure the [IBM Cloud Developer Tools](https://cloud.ibm.com/docs/cli?topic=cloud-cli-ibmcloud-cli#overview)
+1. Install and configure the [IBM Cloud Developer Tools](https://cloud.ibm.com/docs/cli)
 
 2. Clone this repository
 
