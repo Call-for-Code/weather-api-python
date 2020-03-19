@@ -6,8 +6,6 @@ This project shows how to build a basic data access application that continuousl
 
 If you're participating in the [Call for Code](https://developer.ibm.com/callforcode/) Global Challenge, go the the [special Call for Code Weather web site](https://callforcode.weather.com/) and [register](https://callforcode.weather.com/register). A time-limited API key will be sent to you via email. The documentation for the Weather Company APIs for Call for Code can be found the [here](https://callforcode.weather.com/documentation/).
 
-All others, sign up for [IBM Cloud here](https://cloud.ibm.com/login) and provision the [Weather Company Data service](https://cloud.ibm.com/catalog/services/weather-company-data). The Weather Company Data service uses slightly different [API versions](https://twcservice.mybluemix.net/rest-api/). You can reference its documentation [here](https://cloud.ibm.com/docs/services/Weather?topic=weather-insights_weather_overview).
-
 ## Getting Started in IBM Cloud
 
 Deploy this application to IBM Cloud.
