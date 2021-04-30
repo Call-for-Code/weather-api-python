@@ -4,7 +4,7 @@ This project shows how to build a basic data access application that continuousl
 
 ## Obtain a Weather Company API Key
 
-If you're participating in the [Call for Code](https://developer.ibm.com/callforcode/) Global Challenge, go the the [special Call for Code Weather web site](https://callforcode.weather.com/) and [register](https://callforcode.weather.com/register). A time-limited API key will be sent to you via email. The documentation for the Weather Company APIs for Call for Code can be found the [here](https://callforcode.weather.com/documentation/).
+If you are participating in the [Call for Code](https://developer.ibm.com/callforcode/) Global Challenge, request access to [The Weather Company APIs](https://developer.ibm.com/callforcode/tools/weather/).  Registration is free and will be available while the Call for Code Global Challenge is taking place. After you agree to the terms, you will receive your API key.  Additional documentation about The Weather Company APIs for Call for Code is available [here](https://developer.ibm.com/blogs/call-for-code-the-weather-company-and-you/).
 
 ## Getting Started in IBM Cloud
 
