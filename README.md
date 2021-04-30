@@ -17,7 +17,7 @@ Deploy this application to IBM Cloud.
    ```
    $ git clone https://github.com/Call-for-Code/weather-api-python.git
    $ cd weather-api-python
-   ```  
+   ```
 
 3. Deploy the application without starting it
 
@@ -34,14 +34,14 @@ Deploy this application to IBM Cloud.
 
 ## Getting Started on your local machine
 
-To run this application on your local machine, first install Node.js.
+To run this application on your local machine, first install Python.
 
 1. Clone this repository
 
    ```
    $ git clone https://github.com/Call-for-Code/weather-api-python.git
    $ cd weather-api-python
-   ```  
+   ```
 
 2. Install the dependencies
 
@@ -49,7 +49,7 @@ To run this application on your local machine, first install Node.js.
    $ pip install -r requirements.txt
    ```
 
-3. Set your Weather API key `<YOUR_API_KEY>` when running the application    
+3. Set your Weather API key `<YOUR_API_KEY>` when running the application
    ```
    $ export WEATHER_API_KEY=<YOUR_API_KEY>
    $ python app.py
@@ -57,9 +57,8 @@ To run this application on your local machine, first install Node.js.
 
 ## Links
 
-[Call for Code](https://callforcode.org/)  
-[Call for Code - IBM Developer](https://developer.ibm.com/callforcode/)  
-[Call for Code - The Weather Company](https://callforcode.weather.com/)  
+[Call for Code](https://callforcode.org/)
+[Call for Code - IBM Developer](https://developer.ibm.com/callforcode/)
 [Call for Code: The Weather Company and you](https://developer.ibm.com/callforcode/blogs/call-for-code-the-weather-company-and-you/)
 
 ## License
