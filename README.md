@@ -57,9 +57,9 @@ To run this application on your local machine, first install Python.
 
 ## Links
 
-[Call for Code](https://callforcode.org/)
-[Call for Code - IBM Developer](https://developer.ibm.com/callforcode/)
-[Call for Code: The Weather Company and you](https://developer.ibm.com/callforcode/blogs/call-for-code-the-weather-company-and-you/)
+- [Call for Code](https://callforcode.org/)
+- [Call for Code - IBM Developer](https://developer.ibm.com/callforcode/)
+- [Call for Code: The Weather Company and you](https://developer.ibm.com/callforcode/blogs/call-for-code-the-weather-company-and-you/)
 
 ## License
 
