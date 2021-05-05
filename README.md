@@ -1,10 +1,12 @@
+[![License](https://img.shields.io/badge/License-Apache2-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0) [![Community](https://img.shields.io/badge/Join-Community-blue.svg)](https://developer.ibm.com/callforcode/solutions/projects/get-started/)
+
 # Weather Company Data API access for IBM Cloud
 
 This project shows how to build a basic data access application that continuously runs in the background, processing a variety of weather data from the Weather Company Data for IBM REST API endpoints, including severe weather alerts, tropical storm forecasts, and the daily weather almanac to find conditions over time.
 
 ## Obtain a Weather Company API Key
 
-If you are participating in the [Call for Code](https://developer.ibm.com/callforcode/) Global Challenge, request access to [The Weather Company APIs](https://developer.ibm.com/callforcode/tools/weather/).  Registration is free and will be available while the Call for Code Global Challenge is taking place. After you agree to the terms, you will receive your API key.  Additional documentation about The Weather Company APIs for Call for Code is available [here](https://developer.ibm.com/blogs/call-for-code-the-weather-company-and-you/).
+If you are participating in the [Call for Code](https://developer.ibm.com/callforcode/solutions/projects/get-started/) Global Challenge, request access to [The Weather Company APIs](https://developer.ibm.com/callforcode/tools/weather/).  Registration is free and will be available while the Call for Code Global Challenge is taking place. After you agree to the terms, you will receive your API key.  Additional documentation about The Weather Company APIs for Call for Code is available [here](https://developer.ibm.com/blogs/call-for-code-the-weather-company-and-you/).
 
 ## Getting Started in IBM Cloud
 
